@@ -8,16 +8,19 @@
 
 
 Datasets:
+
 1.	Recordings by Title and Artist
 2.	List of 5000 Most Common Words
 3.	Count of Words per Song
 
 Relation Schemas:
+
 1.	recordings(trackID, title, artist)
 2.	word_count(trackID, wordID, wordcount)
 3.	words(wordID, totalwordcount)
 
 Functional Dependencies:
+
 •	trackID -> title, artist
 •	trackID, wordID -> wordcount
 •	wordID -> totalwordcount
