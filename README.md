@@ -21,9 +21,11 @@ Relation Schemas:
 
 Functional Dependencies:
 
-•	trackID -> title, artist
-•	trackID, wordID -> wordcount
-•	wordID -> totalwordcount
+• trackID -> title, artist
+
+• trackID, wordID -> wordcount
+
+• wordID -> totalwordcount
 
   Furthermore, we loaded our Words table into MySQL with a similar query. For our Word_Count table, due to the way in which the “word: count” ratio was stored in the original dataset, we extracted the word and count of the “word: count” ratio in Python and assigned these entities to variables to use in our SQL query. See below for a screenshot of our code. Our database contains 5,000 Tracks with Word: Word_Count ratios; 711,443 unique Tracks with Artists; and 79,874 Words with Total_Word_Counts. 
  Sample Python and SQL to extract the word and word-count, and to create the Word_Count table in our Music database
@@ -31,7 +33,10 @@ Functional Dependencies:
   All in all, we successfully designed, constructed, and queried our very own database of music lyrics, and created a web-based interface for public consumption. Despite the challenges posed by the volume of data, special characters composing the lyrics, and the complexities of learning PHP, the project was a valuable experience – one that allowed us to expand our coding skills and gain real-world experience building databases and web pages. We aim to expand our web page and to design additional queries to allow for more advanced analysis on our music database.
  
 Works Cited
+
 “Bag of Words & TF-IDF.” Skymind, Skymind Inc., skymind.ai/wiki/bagofwords-tf-idf.
+
 Bertin-Mahieux, Thierry, et al. “The MusiXmatch Dataset.” Million Song Dataset | Scaling MIR Research, 2011, labrosa.ee.columbia.edu/millionsong/musixmatch.
+
 Unknown. “Music Beat GIF - Music Beat Beats - Discover & Share GIFs.” Tenor, Tenor, 23 Dec. 2016, tenor.com/view/music-beat-beats-gif-7412752.
 
